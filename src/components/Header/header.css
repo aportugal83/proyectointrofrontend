@@ -1,0 +1,38 @@
+.header{                            /*estilos para la barra de navegacion*/
+    background-color: #cdcdcd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+
+}
+
+.header-logo{                     /*estilos para el logo*/
+    color: #000;
+    font-size: 30px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.header-nav-list{                 /*estilos para la lista de la barra de navegacion */
+    display: flex;
+    flex-wrap: wrap;    
+    list-style: none;
+    gap: 20px;
+}
+
+.header-list-link{                /* estilos para el link*/
+    color: #000;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.header-list-link:hover{        /*es cuando le pasen el mouse por encima*/
+    color: #fff;
+    border-bottom: solid 2px #000;
+}
+
+
+.is-active{
+    color: #fff;
+    border-bottom: solid 2px #000;
+}
